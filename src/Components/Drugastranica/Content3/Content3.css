@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Podnaslov4{
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+    margin-top: 8%;
+}
+
+.Content4{
+    margin-top:3%;
+    width:80%;
+    text-align: center;
+    margin-left: 9%;
+}
+
+.Podnaslov5{
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.Content5{
+    margin-top:3%;
+    width:80%;
+    text-align: center;
+    margin-left: 9%;
+}

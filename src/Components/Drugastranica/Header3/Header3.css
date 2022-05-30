@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Slikanaslovna2{
+    width: 100%;
+    height: 93%;
+    z-index: -1;
+    position: absolute;
+}
+
+.Naslov3{
+    font-size: 5rem;
+    padding-top: 17%;
+}
+
+

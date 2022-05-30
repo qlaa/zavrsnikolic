@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Header{
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    display: flex;
+}
+
+.Header_slika{
+    width: 101%;
+    height: 133%;
+    z-index: -1;
+    position: absolute;
+}
+
+p{
+    color: white;
+}
+
+.Naslov{
+    font-size: 5rem;
+    padding-top: 38%;
+}
+
+.Upit{
+    font-size: 2.5rem;
+    padding-top: 10px;
+}
+
+.Botuni{
+    margin-top: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.Prvi{
+    width: 140px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.Prvi:hover{
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    transition: 1s;
+}
+
+.Drugi{
+    color: black;
+    width: 180px;
+    background-color: white;
+    border: 2px solid white;    
+    text-align: center;
+}
+
+.Drugi:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;  
+    transition: 1s;
+}
+
+#forma{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 40%;
+    height: 80%;
+    margin-left: 1.1%;
+    margin-top: -24%;
+    color: white;
+}
+
+#unutar{
+    margin-top: 5%;
+    font-size: 1.3rem;
+}
+
+::placeholder{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#ime{
+    background-color: black;
+    width: 50%;
+    height: 3rem;
+    margin-top: 5%;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#prezime{
+    background-color: black;
+    width: 50%;
+    height: 3rem;
+    margin-top: 10%;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#prezime::placeholder{
+    margin-left: -3%;
+}
+
+#email{
+    background-color: black;
+    width: 50%;
+    height: 3rem;
+    margin-top: 10%;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#sifra{
+    background-color: black;
+    width: 50%;
+    height: 3rem;
+    margin-top: 10%;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#sifra::placeholder{
+    margin-left: -4%;
+}
+
+#botun{
+    height: 3rem;
+    width: 15%;
+}
+

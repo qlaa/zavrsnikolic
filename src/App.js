@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Naslovna from "./Components/Naslovna/Naslovna";
+import Prva from "./Components/Prvastranica/Prvastranica";
+import Druga from "./Components/Drugastranica/Drugastranica";
+import Treca from "./Components/Trecastranica/Trecastranica";
+import Cetvrta from "./Components/Cetvrtastranica/Cetvrtastranica";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Naslovna/>}/>
+          <Route path="/Prvastranica" element={<Prva/>}/>
+          <Route path="/Drugastranica" element={<Druga/>}/>
+          <Route path="/Trecastranica" element={<Treca/>}/>
+          <Route path="/Cetvrtastranica" element={<Cetvrta/>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }

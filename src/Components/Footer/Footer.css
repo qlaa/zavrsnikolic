@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Footer{
+    width: 100%;
+    background-color: black;
+    height: 55rem;
+}
+
+.Vrh{
+    padding-top: 5%;
+    width: 100%;
+}
+
+.Email{
+    margin-left: 38.4%;
+    background-color: white;
+    border: 1px solid white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 12.5%;
+    height: 3rem;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+.Email::placeholder{
+    opacity: 1;
+    font-size: 1.2rem;
+    position: absolute;
+    padding-top: 14px;
+    z-index: 1;
+    color: black;
+    text-align: center;
+}
+
+.Subscribe{
+    width: 7%;
+    height: 3.2rem;
+    margin-left: 1%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.Dno{
+    padding-top: 15%;
+}
+
+.Kontakt{
+    margin-left: 20%;
+    margin-top: -5%;
+}
+
+.Mail{
+    margin-left: 68%;
+    margin-top: -2%;
+}
