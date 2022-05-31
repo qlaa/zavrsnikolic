@@ -18,7 +18,7 @@ function Header() {
 
   let ime2={
     prvi:"What",
-    drugi:"are",
+    drugi:"are you",
     treci:"waiting",
     cetvrti:"for?"
   }
